@@ -1,0 +1,197 @@
+
+
+:root {
+    --primary-color: #0D1B2A;
+    --secondary-color: #1B263B;
+    --tertiary-color: #415A77;
+    --quaternary-color: #778DA9;
+    --quinary-color: #FFFCF9; 
+  }
+  
+  .navcontainer {
+    display: flex; 
+    justify-content: space-between; 
+    position: sticky; 
+    top: 0; 
+  }
+  
+  .nav {
+      background-color: var(--quinary-color); 
+      color: var(--primary-color); 
+      font-family: Lato;  
+      position: sticky; 
+      top: 0; 
+  }
+  
+  
+  .active {
+    text-decoration: none; 
+    color: var(--quinary-color); 
+    font-family: Lato; 
+    background-color: var(--quaternary-color);
+    position: sticky; 
+    top: 0; 
+  }
+  
+  .nav-item{
+    font-size: 2em; 
+    color: var(--primary-color); 
+    font-family: Lato; 
+    position: sticky; 
+    top: 0; 
+  }
+  
+  a.nav-item {
+    color: var(--primary-color); 
+    font-family: Lato; 
+    position: sticky; 
+    top: 0; 
+  }
+  
+  a.nav-link{
+    color: var(--primary-color); 
+    font-family: Lato; 
+    position: sticky; 
+    top: 0; 
+  }
+  
+  a.nav-link:hover {
+      text-decoration: none; 
+      color: var(--quinary-color); 
+      font-family: Lato;  
+      position: sticky; 
+      top: 0; 
+  }
+  
+  a.nav-link:active {
+    text-decoration: none; 
+    color: var(--quinary-color); 
+    font-family: Lato; 
+    background-color: var(--quaternary-color);
+    position: sticky; 
+    top: 0; 
+  }
+  
+  a.nav-link:visited {
+    color: var(--primary-color); 
+    font-family: Lato; 
+    text-decoration: none; 
+    position: sticky; 
+    top: 0; 
+  }
+  
+  a.nav-link:visited:hover {
+    color: var(--quinary-color); 
+  }
+  
+  .hover-2 {
+    --h: 1.2em;   /* the height */
+    
+    line-height: var(--h);
+    background: 
+      linear-gradient( #778DA9 0 0) 
+      bottom/100% calc(100% - var(--_i,1)*100%) no-repeat;
+    overflow: hidden;
+    transition: 0.3s;
+    font-family: Lato; 
+    position: sticky; 
+    top: 0; 
+  }
+  
+  .hover-2:hover {
+    --_i: 0;
+    text-decoration: none; 
+    font-family: Lato; 
+    color: var(--quinary-color);
+    position: sticky; 
+    top: 0; 
+  }
+
+.footer {
+    display: flex; 
+    justify-content: space-evenly; 
+    margin-top: 10%; 
+    font-family: Lato; 
+    font-size: 1.5em; 
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+
+.footer a {
+    text-decoration: none; 
+    color: var(--primary-color);
+    margin: 10px;
+}
+
+.footer a:hover {
+    text-decoration: none; 
+    color: var(--tertiary-color);
+}
+
+
+.header {
+    height: 100px; 
+    background-color: repeating-linear-gradient(
+        45deg,
+        #E0E1DD,
+        #E0E1DD 10px,
+        #465298 10px,
+        #465298 20px
+    ); 
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    
+    .navcontainer {
+      background-color: var(--quinary-color);
+      display: flex;
+      flex-direction: column;  
+      align-items: center; 
+      color: var(--secondary-color); 
+      font-family: Lato; 
+    }
+  
+    .nav {
+      background-color: var(--quinary-color);
+      display: flex;
+      flex-direction: column;  
+      align-items: center; 
+      color: var(--secondary-color); 
+      font-family: Lato; 
+  }
+  
+  .active {
+    background-color: var(--quaternary-color);
+  }
+  
+  .nav-item{
+    font-size: 2em; 
+    color: var(--secondary-color); 
+    font-family: Lato; 
+    margin: none; 
+  }
+  
+  a.nav-link{
+    color: var(--secondary-color); 
+    font-family: Lato; 
+    width: 100%; 
+  }
+  
+  a.nav-link:visited {
+    color: var(--secondary-color);  
+    font-family: Lato;  
+  text-decoration: none; 
+  }
+  
+  li.active {
+    background-color: var(--quaternary-color);
+  }
+  
+  }
+
+
+
