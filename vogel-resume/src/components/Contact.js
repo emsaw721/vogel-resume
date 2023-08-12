@@ -48,7 +48,6 @@ function Contact() {
 
   return (
   <div className='contact'>
-  <h1>Contact Me</h1>
   <p>Feel free to send a note or inquire for more information.</p>
       <form className="form">
         <input

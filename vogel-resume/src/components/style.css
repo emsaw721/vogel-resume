@@ -115,7 +115,7 @@
 .name-plate {
     text-transform: uppercase; 
     text-align: center;
-    font-size: 3em; 
+    font-size: 6em; 
 }
 
 .homeimg {
@@ -123,9 +123,65 @@
     height: 500px; 
     margin-left: 32%;
     margin-top: 5%; 
-    border-radius: 50%;
+    border-radius: 25%;
     overflow: hidden;
 }
+
+
+
+
+  .contact p {
+    color: var(--primary-color); 
+    font-size: 2em; 
+    font-family: Lato;  
+    margin-left: 5%; 
+  }
+  
+  .form {
+      margin-left: 5%;
+    }
+    
+  .form input {
+      display: block;
+      border-bottom: 3px var(--primary-color) solid; 
+      border-top: 0;
+      border-left: 0;
+      border-right: 0; 
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 75%;
+      color: var(--primary-color); 
+      font-size: 2em; 
+      background-color: var(--quinary-color); 
+  } 
+  
+  .form button {
+      border: var(--tertiary-color) solid 2px;
+      border-radius: 2px; 
+      font-family: Lato; 
+      font-size: 1.5em; 
+      justify-content: end; 
+      margin-top: 5%; 
+      margin-bottom: 5%; 
+      color: var(--primary-color);
+      background-color: var(--quinary-color);
+      font-family: Lato; 
+      text-transform: uppercase; 
+    }
+    
+  .form button:hover {
+    border: var(--tertiary-color) solid 2px;
+    border-radius: 2px; 
+    font-family: Lato; 
+    font-size: 1.5em; 
+    justify-content: end; 
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+    color: var(--quinary-color);
+    background-color: var(--tertiary-color);
+    font-family: Lato; 
+    text-transform: uppercase; 
+    }
 
 .footer {
     display: flex; 

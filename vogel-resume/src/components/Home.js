@@ -27,9 +27,9 @@ export default function Home(props) {
     <div className='home'>
     <div className='name-plate'>
       <h1>Millie Vogel</h1>
-    </div>
-    <div className='homeimg'>
-        <img src= {headshot} />
+        <div className='homeimg'>
+            <img src= {headshot} />
+        </div>
     </div>
     </div>
   );
