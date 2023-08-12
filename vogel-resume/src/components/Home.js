@@ -24,13 +24,9 @@ export default function Home(props) {
 
   return (
     <div className='home'>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
-</style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-<div className='name-plate'>
-      <h1>hello</h1>
-      </div>
+    <div className='name-plate'>
+      <h1>Millie Vogel</h1>
+    </div>
     </div>
   );
 }

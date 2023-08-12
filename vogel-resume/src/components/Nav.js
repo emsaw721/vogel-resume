@@ -4,14 +4,13 @@ import './style.css';
 function Nav({ currentPage, handlePageChange }) {
   return (
     <div className='navcontainer sidenav'>
-            <style>
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
-</style>
-         <div className='resumebtn'>
+
+         {/* <div className='resumebtn'>
        <button>
         {/* <img src={download} /> */}
-        Download Resume</button>
-      </div>
+        {/*Download Resume</button>
+      </div> */}
+      
       <div>
     <ul className="nav">
       <li className="nav-item hover-2">

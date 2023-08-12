@@ -21,7 +21,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='portfoliocontainer' style={{backgroundColor: '#FFFCF9'}}>
+    <div className='portfoliocontainer' style={{backgroundColor: '#F5EBE0'}}>
       <Header />
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}

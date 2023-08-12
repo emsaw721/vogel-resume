@@ -1,11 +1,11 @@
 
 
 :root {
-    --primary-color: #0D1B2A;
-    --secondary-color: #1B263B;
-    --tertiary-color: #415A77;
-    --quaternary-color: #778DA9;
-    --quinary-color: #FFFCF9; 
+    --primary-color: #070707;
+    --secondary-color: #D6CCC2;
+    --tertiary-color: #F5EBE0;
+    --quaternary-color: #E3D5CA;
+    --quinary-color: #D5BDAF; 
   }
   
   .navcontainer {
@@ -16,7 +16,6 @@
   }
   
   .nav {
-      background-color: var(--quinary-color); 
       color: var(--primary-color); 
       font-family: Lato;  
       position: sticky; 
@@ -28,7 +27,6 @@
     text-decoration: none; 
     color: var(--quinary-color); 
     font-family: Lato; 
-    background-color: var(--quaternary-color);
     position: sticky; 
     top: 0; 
   }
@@ -49,6 +47,7 @@
   }
   
   a.nav-link{
+    text-decoration: none;
     color: var(--primary-color); 
     font-family: Lato; 
     position: sticky; 
@@ -57,15 +56,16 @@
   
   a.nav-link:hover {
       text-decoration: none; 
-      color: var(--quinary-color); 
+      color: var(--quaternary-color); 
       font-family: Lato;  
       position: sticky; 
       top: 0; 
+      letter-spacing: 2em;
   }
   
   a.nav-link:active {
     text-decoration: none; 
-    color: var(--quinary-color); 
+    color: var(--primary-color); 
     font-family: Lato; 
     background-color: var(--quaternary-color);
     position: sticky; 
@@ -89,7 +89,7 @@
     
     line-height: var(--h);
     background: 
-      linear-gradient( #778DA9 0 0) 
+      linear-gradient( #D5BDAF 0 0) 
       bottom/100% calc(100% - var(--_i,1)*100%) no-repeat;
     overflow: hidden;
     transition: 0.3s;
@@ -129,17 +129,14 @@
     color: var(--tertiary-color);
 }
 
+.name-plate {
+    text-transform: uppercase; 
+    text-align: center;
+    font-size: 3em; 
+}
 
-.header {
-    height: 100px; 
-    background-color: repeating-linear-gradient(
-        45deg,
-        #E0E1DD,
-        #E0E1DD 10px,
-        #465298 10px,
-        #465298 20px
-    ); 
-  }
+
+
 
 
 
