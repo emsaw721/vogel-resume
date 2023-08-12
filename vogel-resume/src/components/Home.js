@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './style.css'; 
+import headshot from '../images/Millie Vogel-934 copy.jpg' 
 
 // to stop image at intro --> useEffect --> set function and stop point (y-offset), 
 // scroll handler (within the useEffect) --> window.pageyoffset 
@@ -26,6 +27,9 @@ export default function Home(props) {
     <div className='home'>
     <div className='name-plate'>
       <h1>Millie Vogel</h1>
+    </div>
+    <div className='homeimg'>
+        <img src= {headshot} />
     </div>
     </div>
   );

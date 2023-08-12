@@ -56,11 +56,12 @@
   
   a.nav-link:hover {
       text-decoration: none; 
-      color: var(--quaternary-color); 
+      color: var(--tertiary-color); 
       font-family: Lato;  
       position: sticky; 
       top: 0; 
       letter-spacing: 2em;
+      text-transform: uppercase;
   }
   
   a.nav-link:active {
@@ -81,7 +82,7 @@
   }
   
   a.nav-link:visited:hover {
-    color: var(--quinary-color); 
+    color: var(--tertiary-color); 
   }
   
   .hover-2 {
@@ -102,10 +103,29 @@
     --_i: 0;
     text-decoration: none; 
     font-family: Lato; 
-    color: var(--quinary-color);
+    color: var(--tertiary-color);
     position: sticky; 
     top: 0; 
   }
+
+.home {
+    align-content: center;
+}
+
+.name-plate {
+    text-transform: uppercase; 
+    text-align: center;
+    font-size: 3em; 
+}
+
+.homeimg {
+    width: 500px;
+    height: 500px; 
+    margin-left: 32%;
+    margin-top: 5%; 
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 .footer {
     display: flex; 
@@ -128,13 +148,6 @@
     text-decoration: none; 
     color: var(--tertiary-color);
 }
-
-.name-plate {
-    text-transform: uppercase; 
-    text-align: center;
-    font-size: 3em; 
-}
-
 
 
 
