@@ -24,7 +24,6 @@
   
   
   .active {
-    text-decoration: none; 
     color: var(--quinary-color); 
     font-family: Lato; 
     position: sticky; 
@@ -65,7 +64,6 @@
   }
   
   a.nav-link:active {
-    text-decoration: none; 
     color: var(--primary-color); 
     font-family: Lato; 
     background-color: var(--quaternary-color);
@@ -130,18 +128,18 @@
 
 
 
-  .contact p {
+.contact p {
     color: var(--primary-color); 
     font-size: 2em; 
     font-family: Lato;  
     margin-left: 5%; 
   }
   
-  .form {
+.form {
       margin-left: 5%;
-    }
+}
     
-  .form input {
+.form input {
       display: block;
       border-bottom: 3px var(--primary-color) solid; 
       border-top: 0;
@@ -153,9 +151,9 @@
       color: var(--primary-color); 
       font-size: 2em; 
       background-color: var(--quinary-color); 
-  } 
+} 
   
-  .form button {
+.form button {
       border: var(--tertiary-color) solid 2px;
       border-radius: 2px; 
       font-family: Lato; 
@@ -167,9 +165,9 @@
       background-color: var(--quinary-color);
       font-family: Lato; 
       text-transform: uppercase; 
-    }
+}
     
-  .form button:hover {
+.form button:hover {
     border: var(--tertiary-color) solid 2px;
     border-radius: 2px; 
     font-family: Lato; 
@@ -181,7 +179,7 @@
     background-color: var(--tertiary-color);
     font-family: Lato; 
     text-transform: uppercase; 
-    }
+}
 
 .footer {
     display: flex; 
@@ -210,7 +208,7 @@
 
 
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     
     .navcontainer {
       background-color: var(--quinary-color);

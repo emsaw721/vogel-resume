@@ -24,7 +24,12 @@ export default function Home(props) {
   })
 
   return (
+    
     <div className='home'>
+          <style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
+</style>
+
     <div className='name-plate'>
       <h1>Millie Vogel</h1>
         <div className='homeimg'>

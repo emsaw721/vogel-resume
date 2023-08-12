@@ -47,7 +47,11 @@ function Contact() {
   };
 
   return (
-  <div className='contact'>
+  <div className='contact'> 
+   <style>
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
+  </style>
+  
   <p>Feel free to send a note or inquire for more information.</p>
       <form className="form">
         <input
